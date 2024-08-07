@@ -48,6 +48,8 @@ def main():
 # List Operations
 lst = [1, 2, 3]
 lst[0]  # Access first element
+lst[-1]  # Access last element 
+partial_list = lst[1:3]  # Slice from index [1,3) -> partial_list = [2, 3]
 lst.append(4)
 lst.pop()
 lst.remove(2)
